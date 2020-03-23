@@ -31,7 +31,8 @@ app.get("/", (req, res) => {
 });
 
 
-// get
+// get WHERE IM GETTING THE DATA FROM mongoDB // server side
+
 app.get("/api/v1/todos", async(req, res) => {
     try{
       console.log("TEST!");
@@ -44,17 +45,6 @@ app.get("/api/v1/todos", async(req, res) => {
     } catch(error){
       res.json(error);
     }
-    // try{
-    //   const newData = {
-    //       "todo": req.body.todo,
-    //       "status": req.body.status
-    //   }  
-    //   console.log(newData);
-    //   const data = await db.create(newData);
-    //   res.json(data);  
-    // } catch(error){
-    //   res.json(error);
-    // }
 });
 
 // post

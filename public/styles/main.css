@@ -3,22 +3,52 @@ body {
   }
   
   h1 {
+    font-family: "Times New Roman", Times, serif;
     color: navy;
     border: 2px solid red;
+    padding: 5px;
     width: 42%;
     margin-left: 450px;
   }
 
-/* div {
-  border: 2px solid red;
-  width: 50%;
-} */
+    
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: navy;
+    border: 2px solid red;
+    padding: 5px;
+    width: 15%;
+    margin-left: 450px;
+    margin-top: 100px;
+  }
+
+     
+  h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    color: navy;
+    border: 2px solid red;
+    padding: 5px;
+    width: 15%;
+    margin-left: 900px;
+    margin-top: -55px;
+  }
+
+
+.vl {
+  border-left: 4px solid blue;
+  height: 500px;
+  position: absolute;
+  left: 47%;
+  margin-left: -3px;
+  top: 100;
+}
 
 #the_input {
     border: 2px solid red;
     margin: 2rem auto;
     margin-left: 450px;
-    margin-top: 100px
+    /* margin-top: 100px */
 }
 
 #second_input {
@@ -28,9 +58,23 @@ body {
     /* margin-top: 100px; */
 }
 
+#scope_input {
+  border: 2px solid red;
+  margin: 2rem auto;
+  /* padding: 1rem; */
+  margin-left: 450px;
+}
+
+#supply_input {
+  border: 2px solid red;
+  margin: 2rem auto;
+  /* padding: 1rem; */
+  margin-left: 450px;
+}
+
 #information{
   border-width: 100px;
   margin-left: 900px;
   position: relative;
-  top: -130px;
+  top: -300px;
 }
