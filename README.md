@@ -32,6 +32,9 @@ How I built this page:
 Next Steps:
 - Rather than just returning the data that's being inputed, I would love for it to return analyzed input.
 
+Glitch/Development link:
+https://glitch.com/~dwd-final
+
 Note:
 - I tried removing the .env file by using "git rm --cached .env" in my terminal and it didn't work...
 
